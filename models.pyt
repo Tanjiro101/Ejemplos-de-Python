@@ -28,4 +28,3 @@ class Student(User):
         return "Student:"+str(self.id)+","+self.email
     def __repr__(self):
         return f"Student(name='{self.name}',email='{self.email}', id='{self.id}')"
-    {}
